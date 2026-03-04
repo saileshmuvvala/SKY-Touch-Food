@@ -1,0 +1,74 @@
+/* hero section styles */
+.hero-section {
+    background-image: url(../images/backgrounds/cover\ image.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+.hero-section > .top-heading {
+    padding: 1px 10px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 230px;
+    border-radius: 2px;
+}
+.hero-section > .bottom-heading {
+    background-color: #69e24b;
+    color: #11122b;
+    padding: 1px 10px;
+    width: 130px;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+/* Features section styles */
+.features-section {
+    height: 400px;
+    background-image: url(../images/backgrounds/chicken-multiply-bg.jpeg);
+    background-color: #cea135;
+    border-top: 10px solid rgb(88, 76, 4);
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "ubuntu condensed", sans-serif;
+    background-size: contain;
+    box-shadow: inset 0px -20px 65px -8px rgb(88, 76, 4);
+}
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #11122b;
+    /* letter-spacing: 1px; */
+}
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 2em;
+}
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    word-spacing: 5px;
+}
