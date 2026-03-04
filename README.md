@@ -11,7 +11,7 @@ The project presents a food business with multiple pages such as Home, About, Me
 
 Clone the repository
 
-git clone https://github.com/yourusername/sky-touch-food.git
+git clone https://github.com/saileshmuvvala/sky-touch-food.git
 
 Open the project folder and run the website by opening **index.html** in your browser.
 
@@ -53,4 +53,4 @@ Open the project folder and run the website by opening **index.html** in your br
 
 ## Author
 
-**Sailesh M**
+**Sailesh Muvvala**
